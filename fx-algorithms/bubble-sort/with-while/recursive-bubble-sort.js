@@ -1,4 +1,4 @@
-const swap = require('../shared/fx-swap');
+const swap = require('../../shared/fx-swap');
 
 console.log(bubbleSort([0, 1, 2]));
 console.log(bubbleSort([30, 2, 1]));

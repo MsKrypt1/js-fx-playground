@@ -1,4 +1,4 @@
-const def = e => typeof e !== "undefined";
+const def = require('../shared/def');
 
 console.log(linearSearch([9, 7, 2, 16, 4], 16));
 console.log(linearSearch([1, 22, 57, 47, 34, 18, 66], 98));
